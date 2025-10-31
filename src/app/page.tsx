@@ -51,10 +51,13 @@ export default function Page() {
           React
         </p>
         <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
-          NextJS
+          Next.JS
         </p>
         <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
           HTML
+        </p>
+        <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
+          C
         </p>
         
         
@@ -109,6 +112,17 @@ export default function Page() {
             rel="noopener norefferer"
           >
             <span>LinkedIn: SantiagoSGuillen</span>
+            <ChevronRight className="ml-2 h-4 w-4 opacity-0 translate-x-[-4px] group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" />
+          </a>
+        </p>
+        <p>
+          <a
+            className="text-[#9ca3af] group inline-flex items-center hover:underline hover:text-gray-100 transition-colors transition duration-300 ease-in-out"
+            href="https://www.instagram.com/its.s_nti/"
+            target="_blank"
+            rel="noopener norefferer"
+          >
+            <span>Instagram: its.s_nti</span>
             <ChevronRight className="ml-2 h-4 w-4 opacity-0 translate-x-[-4px] group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" />
           </a>
         </p>

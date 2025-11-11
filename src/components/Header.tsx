@@ -10,7 +10,10 @@ export default function Header() {
         Santiago Serrano-Guillen
       </strong>
 
-      <nav aria-label="Main" className="italic space-x-16 mt-2 mb-5 text-center">
+      <nav
+        aria-label="Main"
+        className="italic space-x-16 mt-2 mb-5 text-center"
+      >
         <Link className="font-heading hover:underline" href="#skills">
           Skills
         </Link>

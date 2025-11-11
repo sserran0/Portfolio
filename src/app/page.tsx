@@ -14,7 +14,7 @@ export default function Page() {
       </h2>
       <main className="bg-[#111319]/90 border border-[#242736] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6">
         <p className="font-body text-[#9ca3af] ">
-          Computer Science @ Colorado State University
+          3rd Year Computer Science @ Colorado State University
         </p>
         <p className="font-body text-[#9ca3af] ">
           Studying Abroad Fall '25 @ Korea University
@@ -41,26 +41,24 @@ export default function Page() {
           Skills
         </h2>
         <main className="bg-[#111319]/90 border border-[#242736] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6">
-        <p className="border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
-          Python 
-        </p>
-        <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
-          Java
-        </p>
-        <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
-          React
-        </p>
-        <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
-          Next.JS
-        </p>
-        <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
-          HTML
-        </p>
-        <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
-          C
-        </p>
-        
-        
+          <p className="border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
+            Python
+          </p>
+          <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
+            Java
+          </p>
+          <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
+            React
+          </p>
+          <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
+            Next.js
+          </p>
+          <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
+            HTML
+          </p>
+          <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
+            C
+          </p>
         </main>
       </section>
 

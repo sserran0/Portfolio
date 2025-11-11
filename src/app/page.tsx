@@ -29,7 +29,7 @@ export default function Page() {
             href="https://maps.apple.com/?address=145%20Anam-ro%0ASeongbuk-gu%0ASeoul%2002854%0ASouth%20Korea&auid=3940087605630917629&ll=37.589483,127.032316&lsp=9902&q=Korea%20University"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:underline hover:text-blue-300 transition-colors duration-colors"
+            className="text-gray-400 underline decoration-gray-800 underline-offset-3 hover:decoration-blue-300 hover:text-blue-300 transition-colors duration-colors"
           >
             Seoul, South Korea
           </a>{" "}
@@ -59,6 +59,9 @@ export default function Page() {
           <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
             C
           </p>
+          <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
+            TailwindCSS
+          </p>
         </main>
       </section>
 
@@ -82,7 +85,7 @@ export default function Page() {
       >
         <p>
           <a
-            className="text-[#9ca3af] group inline-flex items-center hover:underline hover:text-gray-100 transition-colors transition duration-300"
+            className="text-[#9ca3af] group inline-flex items-center underline decoration-gray-800 underline-offset-3 hover:decoration-gray-100 hover:text-gray-100 transition-colors transition duration-300"
             href="mailto:santiagoserrano192@gmail.com"
             target="_blank"
             rel="noopener no referrer"
@@ -93,7 +96,7 @@ export default function Page() {
         </p>
         <p>
           <a
-            className="text-[#9ca3af] group inline-flex items-center hover:underline hover:text-gray-100 transition-colors transition duration-300 ease-in-out"
+            className="text-[#9ca3af] group inline-flex items-center underline decoration-gray-800 underline-offset-3 hover:decoration-gray-100 hover:text-gray-100 transition-colors transition duration-300 ease-in-out"
             href="https://github.com/sserran0"
             target="_blank"
             rel="noopener noreferrer"
@@ -104,7 +107,7 @@ export default function Page() {
         </p>
         <p>
           <a
-            className="text-[#9ca3af] group inline-flex items-center hover:underline hover:text-gray-100 transition-colors transition duration-300 ease-in-out"
+            className="text-[#9ca3af] group inline-flex items-center underline decoration-gray-800 underline-offset-3 hover:decoration-gray-100 hover:text-gray-100 transition-colors transition duration-300 ease-in-out"
             href="https://www.linkedin.com/in/santiago-serrano-guillen-a8188a22b/"
             target="_blank"
             rel="noopener norefferer"
@@ -115,7 +118,7 @@ export default function Page() {
         </p>
         <p>
           <a
-            className="text-[#9ca3af] group inline-flex items-center hover:underline hover:text-gray-100 transition-colors transition duration-300 ease-in-out"
+            className="text-[#9ca3af] group inline-flex underline decoration-gray-800 underline-offset-3 items-center hover:decoration-gray-100 hover:text-gray-100 transition-colors transition duration-300 ease-in-out"
             href="https://www.instagram.com/its.s_nti/"
             target="_blank"
             rel="noopener norefferer"

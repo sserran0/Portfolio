@@ -20,7 +20,7 @@ export default function Header() {
         <Link className="font-heading hover:underline" href="#projects">
           Projects
         </Link>
-        <Link className="font-heading hover:underline" href="#contact">
+        <Link className="font-heading  hover:underline" href="#contact">
           Contact
         </Link>
       </nav>

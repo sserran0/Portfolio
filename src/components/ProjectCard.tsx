@@ -4,7 +4,7 @@ type Props = { title: string; blurb: string; href?: string};
 
 export default function ProjectCard({title, blurb, href}: Props){
     return (
-        <article className= "bg-[#111319]/60 border border-[#242736] rounded-2xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-5">
+        <article className= "bg-[#111319]/60 border border-[#242736] rounded-2xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-5 w-220 mx-auto">
             <h2 className="text-m font-extralight underline font-bold mb-3">{title}</h2>
             <p className = "text-s text-[#9ca3af] mb-2">{blurb}</p>
             
@@ -19,7 +19,7 @@ export default function ProjectCard({title, blurb, href}: Props){
                     TypeScript
                 </span>
                 <span className = "border border-dashed border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
-                    Tailwind CSS
+                    TailwindCSS
                 </span>
             </div>
             {href && (

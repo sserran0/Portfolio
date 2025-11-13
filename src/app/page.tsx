@@ -9,10 +9,10 @@ export default function Page() {
   return (
     <>
       <Header />
-      <h2 className="text-xl text-left font-semibold font-heading leading-tight mb-2 ml-5 mt-15">
+      <h2 className="text-xl text-left font-semibold font-heading leading-tight mb-2 ml-10 mt-15">
         About
       </h2>
-      <main className="bg-[#111319]/90 border border-[#242736] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6">
+      <main className="bg-[#111319]/90 border border-[#242736] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6 w-220 mx-auto">
         <p className="font-body text-[#9ca3af] ">
           3rd Year Computer Science @ Colorado State University
         </p>
@@ -37,10 +37,10 @@ export default function Page() {
       </main>
 
       <section id="skills" className="mt-2">
-        <h2 className="text-xl text-left font-semibold font-heading mb-3 ml-5 mt-15">
+        <h2 className="text-xl text-left font-semibold font-heading mb-2 ml-10 mt-15">
           Skills
         </h2>
-        <main className="bg-[#111319]/90 border border-[#242736] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6">
+        <main className="bg-[#111319]/90 border border-[#242736] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6 w-220 mx-auto">
           <p className="border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
             Python
           </p>
@@ -66,7 +66,7 @@ export default function Page() {
       </section>
 
       <section id="projects" className="mt-2">
-        <h2 className="text-xl text-left font-semibold font-heading mb-3 ml-5 mt-15">
+        <h2 className="text-xl text-left font-semibold font-heading mb-2 ml-10 mt-15">
           Projects
         </h2>
         <div className="grid grid-cols-1 md:grib-cols-2 gap-4">
@@ -76,12 +76,12 @@ export default function Page() {
         </div>
       </section>
 
-      <h2 className="text-xl text-left font-semibold font-heading leading-tight mt-10 ml-5">
+      <h2 className="text-xl text-left font-semibold font-heading leading-tight mb-2 mt-10 ml-10">
         Contact
       </h2>
       <section
         id="contact"
-        className="mt-3 bg-[#111319]/60 border border-[#242736] rounded-2xl p-5"
+        className="mt-3 bg-[#111319]/60 border border-[#242736] rounded-2xl p-5  w-220 mx-auto"
       >
         <p>
           <a

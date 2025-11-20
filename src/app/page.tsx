@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <>
       <Header />
-      <h2 className="text-xl text-left font-semibold font-heading leading-tight mb-2 ml-10 mt-15">
+      <h2 className="text-xl text-left font-semibold text-xl font-semibold font-heading mb-2 mt-10 px-4 sm:px-0 sm:ml-10-heading leading-tight mb-2 ml-10 mt-15">
         About
       </h2>
       <main className="bg-[#111319]/90 border border-[#w-full max-w-[900px] mx-auto px-4 sm:px-6 bg-[#111319]/90 border border-[#242736] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6 w-220 mx-auto">
@@ -37,7 +37,7 @@ export default function Page() {
       </main>
 
       <section id="skills" className="mt-2">
-        <h2 className="text-xl text-left font-semibold font-heading mb-2 ml-10 mt-15">
+        <h2 className="text-xl font-semibold font-heading mb-2 mt-10 px-4 sm:px-0 sm:ml-10 text-left font-semibold font-heading mb-2 ml-10 mt-15">
           Skills
         </h2>
         <main className="bg-[#111319]/90 border border-[#bg-[#111319]/90 border border-[#w-full max-w-[900px] mx-auto px-4 sm:px-6 bg-[#111319]/90 border border-[#242736] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6 w-220 mx-auto] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6 w-220 mx-auto">
@@ -66,7 +66,7 @@ export default function Page() {
       </section>
 
       <section id="projects" className="mt-2">
-        <h2 className="text-xl text-left font-semibold font-heading mb-2 ml-10 mt-15">
+        <h2 className="text-xl text-xl font-semibold font-heading mb-2 mt-10 px-4 sm:px-0 sm:ml-10-left font-semibold font-heading mb-2 ml-10 mt-15">
           Projects
         </h2>
         <div className="grid grid-cols-1 md:grib-cols-2 gap-4">
@@ -76,7 +76,7 @@ export default function Page() {
         </div>
       </section>
 
-      <h2 className="text-xl text-left font-semibold font-heading leading-tight mb-2 mt-10 ml-10">
+      <h2 className="text-xl text-left text-xl font-semibold font-heading mb-2 mt-10 px-4 sm:px-0 sm:ml-10-semibold font-heading leading-tight mb-2 mt-10 ml-10">
         Contact
       </h2>
       <section

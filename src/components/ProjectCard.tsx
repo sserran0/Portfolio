@@ -3,7 +3,7 @@ type Props = { title: string; blurb: string; href?: string };
 
 export default function ProjectCard({ title, blurb, href }: Props) {
   return (
-    <article className="bg-[#111319]/60 border bg-[#111319]/90 border border-[#w-full max-w-[900px] mx-auto px-4 sm:px-6 bg-[#111319]/90 border border-[#242736] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6 w-220 mx-auto-[#242736] rounded-2xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-5 w-220 mx-auto">
+    <article className="w-full max-w-[900px] mx-auto bg-[#111319]/90 border border-[#242736] rounded-2xl shadow-md p-6">
       <h2 className="text-m font-extralight underline font-bold mb-3">
         {title}
       </h2>

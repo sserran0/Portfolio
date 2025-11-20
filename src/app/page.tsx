@@ -12,7 +12,7 @@ export default function Page() {
       <h2 className="text-xl text-left font-semibold font-heading leading-tight mb-2 ml-10 mt-15">
         About
       </h2>
-      <main className="bg-[#111319]/90 border border-[#242736] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6 w-220 mx-auto">
+      <main className="bg-[#111319]/90 border border-[#w-full max-w-[900px] mx-auto px-4 sm:px-6 bg-[#111319]/90 border border-[#242736] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6 w-220 mx-auto">
         <p className="font-body text-[#9ca3af] ">
           3rd Year Computer Science @ Colorado State University
         </p>
@@ -40,7 +40,7 @@ export default function Page() {
         <h2 className="text-xl text-left font-semibold font-heading mb-2 ml-10 mt-15">
           Skills
         </h2>
-        <main className="bg-[#111319]/90 border border-[#242736] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6 w-220 mx-auto">
+        <main className="bg-[#111319]/90 border border-[#bg-[#111319]/90 border border-[#w-full max-w-[900px] mx-auto px-4 sm:px-6 bg-[#111319]/90 border border-[#242736] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6 w-220 mx-auto] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6 w-220 mx-auto">
           <p className="border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
             Python
           </p>
@@ -81,7 +81,7 @@ export default function Page() {
       </h2>
       <section
         id="contact"
-        className="mt-3 bg-[#111319]/60 border border-[#242736] rounded-2xl p-5  w-220 mx-auto"
+        className="mt-3 bg-[#111319]/bg-[#111319]/90 border border-[#w-full max-w-[900px] mx-auto px-4 sm:px-6 bg-[#111319]/90 border border-[#242736] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6] rounded-4xl shadow-[0_10px_25px_rgba(0,0,0,.25)] p-6 w-220 mx-auto border border-[#242736] rounded-2xl p-5  w-220 mx-auto"
       >
         <p>
           <a

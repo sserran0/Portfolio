@@ -3,25 +3,13 @@ type Props = { title: string; blurb: string; href?: string };
 
 export default function ProjectCard({ title, blurb, href }: Props) {
   return (
-    <article className="w-full max-w-[900px] mx-auto bg-[#111319]/90 border border-[#242736] rounded-2xl shadow-md p-6">
+    <article className="w-full font-body max-w-[900px] mx-auto bg-[#111319]/40 border border-dashed border-[#242736] rounded-2xl shadow-md p-6">
       <h2 className="text-m font-extralight underline font-bold mb-3">
         {title}
       </h2>
       <p className="text-s text-[#9ca3af] mb-2">{blurb}</p>
 
       <div className="text-xs flex flex-wrap gap-2 mb-3">
-        <span className="border border-dashed border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
-          React
-        </span>
-        <span className="border border-dashed border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
-          Next.js
-        </span>
-        <span className="border border-dashed border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
-          TypeScript
-        </span>
-        <span className="border border-dashed border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
-          TailwindCSS
-        </span>
       </div>
       {href && (
         <a

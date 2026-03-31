@@ -1,15 +1,22 @@
 import { ArrowRight, ChevronRight } from "lucide-react";
-type Props = { title: string; blurb: string; href?: string };
+type Props = { title: string; blurb: string; href?: string; tags?: string[] };
 
-export default function ProjectCard({ title, blurb, href }: Props) {
+export default function ProjectCard({ title, blurb, href, tags }: Props) {
   return (
     <article className="w-full font-body max-w-[900px] mx-auto bg-[#111319]/40 border border-dashed border-[#242736] rounded-2xl shadow-md p-6">
       <h2 className="text-m font-extralight underline font-bold mb-3">
         {title}
       </h2>
       <p className="text-s text-[#9ca3af] mb-2">{blurb}</p>
-
-      <div className="text-xs flex flex-wrap gap-2 mb-3">
+      <div className="flex flex-wrap gap-2 mb-3">
+        {tags?.map((tag) => (
+          <span
+            key={tag}
+            className="border border-dashed border-[#242736] font-alt text-[#9ca3af] px-2 text-xs rounded-md"
+          >
+            {tag}
+          </span>
+        ))}
       </div>
       {href && (
         <a

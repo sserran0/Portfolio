@@ -55,7 +55,7 @@ export default function Page() {
             React
           </p>
           <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
-            Next.js
+            Javascript
           </p>
           <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
             HTML
@@ -64,7 +64,13 @@ export default function Page() {
             C
           </p>
           <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
-            TailwindCSS
+            SQL
+          </p>
+          <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
+            PHP
+          </p>
+          <p className="ml-3 border border-[#242736] font-alt text-[#9ca3af] px-2 rounded-md inline-block">
+            Go
           </p>
         </main>
       </section>

@@ -13,7 +13,7 @@ export const projects: Project[] = [
     title: "InterSplit",
     blurb: "A full-stack expense splitting web-application with embedded real-time currency conversion. Designed for international friend groups + study abroad students.",
     href: "https://github.com/sserran0/InterSplit",
-    tags: ["Go, SQL, TS"],
+    tags: ["Go", "SQL", "TS"],
 
   },
   {
